@@ -1,15 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+      <PageWatermark text="Afdhalul Ganteng" />
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <SensitiveInfo sensitiveInfo="Welcome to Your Vue.js App"/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SensitiveInfo from './components/SensitiveInfo.vue'
+import PageWatermark from "@/components/PageWatermark.vue";
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SensitiveInfo,
+    PageWatermark
   }
 }
 </script>
